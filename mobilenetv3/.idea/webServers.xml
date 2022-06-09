@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="43398b48-e04d-4487-86a6-99abf97dbd40" name="10.249.43.41">
+        <fileTransfer accessType="SFTP" host="10.249.43.41" port="22" sshConfigId="e1a723fa-2983-435f-b050-3345eb61047b" sshConfig="ubuntu@10.249.43.41:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="60ad24d4-f374-426c-9560-3b2649ad4532" name="10.249.43.24">
+        <fileTransfer accessType="SFTP" host="10.249.43.24" port="22" sshConfigId="d855c5bf-8928-4aa2-9c29-dd3e66e22178" sshConfig="root@10.249.43.24:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>mobilenetV3</name>
+        <servers>
+          <name value="10.249.43.41" />
+          <name value="10.249.43.24" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>
